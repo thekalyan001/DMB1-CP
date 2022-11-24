@@ -16,7 +16,7 @@ TreeNode* check(TreeNode* root, TreeNode* &p, TreeNode* &q)
             return root;
         
         
-        //if any call if not null means  below current element there are both the nodes
+        //if any call is not null means  below current element there are both the nodes
         if(lef!=NULL || rig!=NULL)
             return lef?lef:rig;
         
